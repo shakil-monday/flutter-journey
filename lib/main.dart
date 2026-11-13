@@ -1,11 +1,14 @@
 import 'package:classico_cmd/app_routes.dart';
 import 'package:classico_cmd/details_page.dart';
 import 'package:classico_cmd/home_page.dart';
+import 'package:classico_cmd/home_page2.dart';
 import 'package:classico_cmd/login_page.dart';
+import 'package:classico_cmd/login_page2.dart';
 import 'package:classico_cmd/product_list_detail/product_detail.dart';
 import 'package:classico_cmd/product_list_detail/product_list.dart';
 import 'package:classico_cmd/setting_page.dart';
 import 'package:classico_cmd/sign_up_page.dart';
+import 'package:classico_cmd/splash_page2.dart';
 import 'package:classico_cmd/wallpaper_page.dart';
 import 'package:flutter/material.dart';
 
@@ -28,6 +31,9 @@ class MyApp extends StatelessWidget {
       // home: LoginPage(),
       // home: ProductList(),
       // home: ProductDetail(),
+      // home: HomePage2(),
+      home: SplashPage2(),
+      // home: LoginPage2(),
 
       // initialRoute: "/",
       // routes: {
@@ -36,8 +42,8 @@ class MyApp extends StatelessWidget {
       //   "/settings": (_) => SettingPage(),
       // },
 
-      initialRoute: AppRoutes.pageSplashRoute,
-      routes: AppRoutes.mRoutes,
+      // initialRoute: AppRoutes.pageSplashRoute,
+      // routes: AppRoutes.mRoutes,
     );
   }
 }
